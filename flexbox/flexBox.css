@@ -1,0 +1,182 @@
+.cabecera :nth-child(1) {
+    width: 150px;
+}
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 100px;
+    width: 60%;
+}
+.menu ul {
+    gap: 20px;
+    display: flex;
+}
+.menu a:hover {
+color: #00B2E3;
+font-weight: bold;
+}
+.menu ul li {
+    display: inline-block;
+    color: #6E6E6E;
+    font-weight: bold;
+    font-size: larger;
+}
+.menu ul li:nth-child(1) {
+    color: #00B2E3;
+}
+.seccion_inicio {
+    background-color: #D9D9D9;
+    width: 100vw;
+    height: 100vh;
+}
+.logo {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 100px;
+}
+.logo p {
+    color: #00B2E3;
+    align-self: flex-end;
+    font-size: larger;
+}
+.logo p strong {
+    color: #6E6E6E;
+}
+.inicio {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inicio h1 {
+    color: #6E6E6E;
+    font-size: 70px;
+}
+.inicio h2 {
+    color: #6E6E6E;
+    font-size: xx-large;
+}
+.inicio h2 span {
+    color: #00B2E3;
+}
+.botones {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 50px;
+    padding-left: 100px;
+}
+.botones p {
+    color: white;
+}
+.botones button {
+    background-color: #00B2E3;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+
+}
+.cursos {
+    margin: 0 auto;
+    height: 1500px;
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    padding-bottom: 200px;
+}
+.seccion_cursos {
+    margin: 0 auto;
+    width: 65%;
+}
+.titulo_cursos {
+    color: #6E6E6E;
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.curso1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 2.png);
+    background-repeat: no-repeat;
+    grid-column: span 2;
+    grid-row: span 2;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.curso2 {
+    display: flex;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 3.png);
+    background-repeat: no-repeat;
+    grid-row: span 2;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.curso3 {
+    display: flex;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 4.png);
+    background-repeat: no-repeat;
+    grid-column: span 2;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.curso4 {
+    display: flex;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 9.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.curso5 {
+    display: flex;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.curso6 {
+    display: flex;
+    background-image: url(img/TÉCNICO\ SUPERIOR\ EN\ MARKETING\ Y\ PUBLICIDAD\ 8.png);
+    background-repeat: no-repeat;
+    grid-column: span 2;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.titulo {
+    align-self: flex-end;
+    font-size: 32px;
+    color: white;
+    padding: 5px;
+}
+.footer {
+    background-color: #D9D9D9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer p {
+    color: #6E6E6E;
+    margin: 10px;
+    display: inline;
+}
+
+.footer p:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer p:last-child {
+    margin-top: 20px;
+    color: #6E6E6E;
+}
+
+.footer .copyright {
+    padding-top: 50px;
+    color: #6E6E6E;
+    display: block;
+}
